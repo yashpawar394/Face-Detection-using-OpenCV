@@ -12,7 +12,6 @@ cam.set(cv2.CAP_PROP_FRAME_WIDTH,720)
 
 
 fincas = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
-#img = cv2.imread("1544629383911.jpg")
 
 while True:
     _, frame = cap.read()
